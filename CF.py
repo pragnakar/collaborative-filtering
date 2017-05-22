@@ -1,16 +1,4 @@
 from multiprocessing import Pool
-
-def f(i):
-    print(i)
-    return i*i
-
-#if __name__ == '__main__':
-#    p = Pool(5)
- #   print(p.map(f, [1, 2, 3]))
-  #  print('start-')
-
-
-
 import  numpy as np
 import pandas as pd
 from math import sqrt
